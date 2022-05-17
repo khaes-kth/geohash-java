@@ -23,7 +23,7 @@ public class GeoHashSizeTable {
 	}
 
 	protected static final double dLat(int bits) {
-		return 180d / Math.pow(2, bits / 2);
+		return 180d / Math.pow(2, bits / 2D );
 	}
 
 	protected static final double dLon(int bits) {
